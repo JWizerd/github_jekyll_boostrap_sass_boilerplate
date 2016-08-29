@@ -3,11 +3,13 @@
 @charset "utf-8";
 @import "bootstrap";
 
-body {
+body, .jumbotron {
   background-color: red;
   text-align: center;
   color: white;
   -webkit-text-shadow: 1px 1px 1px #333;
   -moz-text-shadow: 1px 1px 1px #333;
   text-shadow: 1px 1px 1px #333;
+  width: 95%;
+  margin: 0 auto;
 }
