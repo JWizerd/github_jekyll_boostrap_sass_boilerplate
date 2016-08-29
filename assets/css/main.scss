@@ -3,8 +3,10 @@
 @charset "utf-8";
 @import "bootstrap";
 
+$pumpkin: #ff7200;
+
 body, .jumbotron {
-  background-color: red;
+  background-color: $pumpkin;
   text-align: center;
   color: white;
   -webkit-text-shadow: 1px 1px 1px #333;
